@@ -101,10 +101,10 @@ Cassie LeClair - cassieleclair71@gmail.com
 ## Acknowledgments
 
 * [README Template](https://github.com/othneildrew/Best-README-Template)
-* [HTML DOM Element addEventListener()](https://www.w3schools.com/jsref/met_element_addeventlistener.asp)
-* [syntaxfix](https://syntaxfix.com/question/4859/addeventlistener-is-not-a-function-why-does-this-error-occur)
-* [Grammar and types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types)
-* [Window prompt()](https://www.w3schools.com/jsref/met_win_prompt.asp)
+* [Spacing](https://getbootstrap.com/docs/4.0/utilities/spacing/)
+* [Format](https://day.js.org/docs/en/display/format)
+* [Bootstrap layout](https://getbootstrap.com/docs/5.0/layout/utilities/)
+* [jQuery API](https://api.jquery.com/)
 * [Document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 * [Logical AND (&&)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
 * [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
