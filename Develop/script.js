@@ -1,7 +1,11 @@
 $(document).ready(function() {
  console.log("rdy"); 
-}),
+});
 
+// let now = moment().format("dddd, MMMM D YYYY");
+let displayDay = document.getElementById("currentDate");
+displayDay.innerHTML = dayjs().format("dddd, MMMM D YYYY hh:mm A");
+let displayHour = dayjs().format("hh");
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
@@ -13,6 +17,20 @@ $(function () {
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
   //
+  $("time-display").each(function () { 
+    var timeDisplay = $(this).attr("id").split("-")[1]; 
+
+    if (displayHour == timeDisplay) {
+      $(this).addClass("present");
+      $(this).children(".description").addClass("present");
+    } else if (displayHour < timeDisplay) {
+      $(this).removeClass("present");
+      $(this).addClass("future");
+    } else if (displayHour > timeDisplay) {
+      $(this).removeClass("future");
+      $(this).addClass("past");
+  }
+});
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
   // attribute of each time-block be used to conditionally add or remove the
