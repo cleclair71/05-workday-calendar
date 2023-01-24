@@ -109,6 +109,8 @@ Cassie LeClair - cassieleclair71@gmail.com
 * [Logical AND (&&)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
 * [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
 * [15 Gorgeous CSS Text Animation Effects](https://alvarotrigo.com/blog/css-text-animations/)
+* [FLEXBOX STICKY FOOTER](https://startbootstrap.com/snippets/sticky-footer-flexbox)
+* [Bootstrap Video Background](https://jsfiddle.net/StartBootstrap/enajc82d/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

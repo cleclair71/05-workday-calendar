@@ -1,9 +1,11 @@
+
 // Grabbing the element with the id of "currentDate" and storing it in the variable displayDay
 let displayDay = document.getElementById("currentDate");
 // Setting the innerHTML of the displayDay element to the current date and time in the format "day, month date year hour:minute am/pm"
 displayDay.innerHTML = dayjs().format("dddd, MMMM D YYYY hh:mm A");
 // Storing the current hour in the format of "hh" (hours in a 24 hour format) in the variable displayHour
 let displayHour = dayjs().format("hh");
+
 
  $(".saveBtn").click(function (event) {
   // Preventing the default action of the button from happening
@@ -28,8 +30,8 @@ localStorage.setItem(time, values);
     // add the class "present" to the current element and its child element with the class "description"
     if (displayHour == timeDisplay) {
       $(this).addClass("present");
-      $(this).children(".description").addClass("present");
-
+      $(this).children(".rows").addClass("present");
+      
       // If the current hour is less than the hour of the current element, 
       // remove the class "present" and add the class "future" to the current element
     } else if (displayHour < timeDisplay) {
