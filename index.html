@@ -34,7 +34,10 @@
       <div class="d-flex h-100 text-center align-items-center">
         <div class="w-100 text-white">
           <h1 class="display-3 text-center">Work Day Scheduler</h1>
-          <p class="lead mb-0">A simple calendar app for scheduling your work day</p>
+          <p class="lead text-center">A simple calendar app for scheduling your work day</p>
+          <hr class="my-4"> 
+          <p id="currentDate" class="lead text-center"> </p>
+      
         </div>
       </div>
     </div>
@@ -53,7 +56,7 @@
     <div class="container">
 
       <!-- 9 am -->
-      <div id="hour-9" class="row time-display">
+      <div id="hour-9" class="shadow row time-display">
         <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
@@ -62,7 +65,7 @@
       </div>
 
       <!-- 10am -->
-      <div id="hour-10" class="row time-display">
+      <div id="hour-10" class="shadow row time-display">
         <div class="col-2 col-md-1 hour text-center py-3">10AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"></textarea>
        <!-- button that allows the user to save schedule -->
@@ -72,7 +75,7 @@
       </div>
 
       <!-- 11am -->
-      <div id="hour-11" class="row time-display">
+      <div id="hour-11" class="shadow row time-display">
         <div class="col-2 col-md-1 hour text-center py-3">11AM</div>
         <textarea class="col-8 col-md-10 description" rows="3"></textarea>
        <!-- button that allows the user to save schedule -->
@@ -82,7 +85,7 @@
       </div>
 
       <!-- 12pm -->
-      <div id="hour-12" class="row time-display">
+      <div id="hour-12" class="shadow row time-display">
         <div class="col-2 col-md-1 hour text-center py-3">12PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"></textarea>
        <!-- button that allows the user to save schedule -->
@@ -92,7 +95,7 @@
       </div>
 
       <!-- 1pm -->
-      <div id="hour-1" class="row time-display">
+      <div id="hour-1" class="shadow row time-display">
         <div class="col-2 col-md-1 hour text-center py-3">1PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <!-- button that allows the user to save schedule -->
@@ -102,7 +105,7 @@
       </div>
 
       <!-- 2pm -->
-      <div id="hour-2" class="row time-display">
+      <div id="hour-2" class="shadow row time-display">
         <div class="col-2 col-md-1 hour text-center py-3">2PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <!-- button that allows the user to save schedule -->
@@ -112,7 +115,7 @@
       </div>
 
       <!-- 3pm -->
-      <div id="hour-3" class="row time-display">
+      <div id="hour-3" class="shadow row time-display">
         <div class="col-2 col-md-1 hour text-center py-3">3PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <!-- button that allows the user to save schedule -->
@@ -122,7 +125,7 @@
       </div>
 
       <!-- 4pm -->
-      <div id="hour-4" class="row time-display">
+      <div id="hour-4" class="shadow row time-display">
         <div class="col-2 col-md-1 hour text-center py-3">4PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"></textarea>
         <!-- button that allows the user to save schedule -->
@@ -132,7 +135,7 @@
       </div>
 
       <!-- 5pm -->
-      <div id="hour-5" class="row time-display future">
+      <div id="hour-5" class="shadow row time-display future">
         <div class="col-2 col-md-1 hour text-center py-3">5PM</div>
         <textarea class="col-8 col-md-10 description" rows="3"> </textarea>
         <!-- button that allows the user to save schedule -->
@@ -142,8 +145,8 @@
       </div>
 
       <!-- clear button -->
-      <div class="col-md-12 text-center mt-3">
-        <button id="clearBtn" type="button" class="btn btn-secondary btn-pill">Clear</button>
+      <div class="shadowcol-md-12 text-center mt-3">
+        <button id="clearBtn" type="button" class="shadow btn btn-secondary">Clear</button>
       </div>
     </div>
   </div>
