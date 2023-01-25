@@ -3,7 +3,7 @@
 
 <!-- PROJECT LOGO -->
 
-  <h3 align="center">Workday Schedule</h3>
+  <h3 align="center">Work Day Schedule</h3>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -28,9 +28,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![startscreen](https://user-images.githubusercontent.com/76407605/213609579-9e7b382c-d750-40c7-9770-674092d07da1.JPG)
+![screen1](https://user-images.githubusercontent.com/76407605/214712756-469e0aea-e7b2-469d-af5c-0c4242c202e2.JPG)
 
-As a full-stack web developer, I have developed a timed coding quiz application that features multiple-choice questions. This application runs in the browser, and is powered by dynamic HTML, CSS and JavaScript code. The user interface is clean, polished and responsive. This application was designed to help users become familiar with coding assessments and to apply the skills learned in the module.
+This application assists busy employees in organizing and managing their time by providing a convenient way to track important events. The project meets acceptance criteria and follows the design specifications outlined in the provided mock-up.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -40,13 +40,7 @@ As a full-stack web developer, I have developed a timed coding quiz application 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This application helps employees with busy schedules to keep track of important events, allowing them to effectively manage their time. According to the project's acceptance criteria and provided mock-up, the app includes the following features:
--When the user opens the planner, the current day is displayed at the top of the calendar and uses a date library to work with date and time
--When the user scrolls down, they see timeblocks for standard business hours
--Each timeblock is color-coded to indicate whether it is in the past, present, or future. Past events are gray, present events are red, and future events are green
--Users can click into a timeblock to enter an event and click the save button to save the event in local storage
--When the page is refreshed, saved events persist
--Users can edit timeblock entry fields and use the clear button to clear all contents and local storage.
+This planner features a calendar that displays the current day at the top, and uses a date library to handle date and time functionality. Scrolling down shows time blocks for standard business hours, which are color-coded to indicate past, present, and future events. Users can click on a time block to add an event, and the save button stores the event in local storage for persistence upon page refresh. Users can also edit entries and use the clear button to clear the contents and local storage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -54,10 +48,11 @@ This application helps employees with busy schedules to keep track of important 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-![startscreen](https://user-images.githubusercontent.com/76407605/213609579-9e7b382c-d750-40c7-9770-674092d07da1.JPG)
-![questions](https://user-images.githubusercontent.com/76407605/213609587-f0eb553b-c5d0-4de1-8eff-6f0eb5227166.JPG)
-![alldone](https://user-images.githubusercontent.com/76407605/213609597-068cae89-d3c9-4da5-9284-3c2e0a0059e6.JPG)
-![highscores](https://user-images.githubusercontent.com/76407605/213609603-4ee92526-2139-47e9-b88e-ba97a1c61045.JPG)
+![screen1](https://user-images.githubusercontent.com/76407605/214712756-469e0aea-e7b2-469d-af5c-0c4242c202e2.JPG)
+![screen2](https://user-images.githubusercontent.com/76407605/214712757-54441117-7c50-492d-8a4f-045cb9c4264e.JPG)
+![screen3](https://user-images.githubusercontent.com/76407605/214712758-e2d516e5-0ad0-4013-8e66-09bced0a858b.JPG)
+![screen4](https://user-images.githubusercontent.com/76407605/214712759-121fc383-5b2f-4e53-a509-13e4e0ecb29f.JPG)
+![screen5](https://user-images.githubusercontent.com/76407605/214712761-c7b2ceea-8f9b-4cac-8537-5603ef8a72d3.JPG)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -114,17 +109,3 @@ Cassie LeClair - cassieleclair71@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
