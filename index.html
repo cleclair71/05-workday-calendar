@@ -31,18 +31,29 @@
   
     <!-- The header content -->
     <div class="container h-100">
-      <div class="d-flex h-100 text-center align-items-center">
+      <div class="d-flex h-100">
         <div class="w-100 text-white">
           <h1 class="display-3 text-center">Work Day Scheduler</h1>
           <p class="lead text-center">A simple calendar app for scheduling your work day</p>
           <hr class="my-4"> 
           <p id="currentDate" class="lead text-center"> </p>
-      
+          <div class="dropdown text-center">
+            <button class="btn btn-secondary dropdown-toggle text-center" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Legend
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <div class="dropdown-item1 text-center">Past</div>
+              <div class="dropdown-item2 text-center">Present</div>
+              <div class="dropdown-item3 text-center">Future</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    
   </header>
   <div class="jumbotron">
+    
     <!-- <header class="p-5 mb-4"> -->
       
       <!-- main header-->
@@ -146,11 +157,11 @@
 
       <!-- clear button -->
       <div class="shadowcol-md-12 text-center mt-3">
-        <button id="clearBtn" type="button" class="shadow btn btn-secondary">Clear</button>
+        <button id="clearBtn" type="button" class="shadow btn-lg btn-secondary">Clear</button>
       </div>
     </div>
   </div>
-  <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+  <footer id="sticky-footer" class="flex-shrink-0 py-4 bg text-white-50">
     <div class="container text-center">
       <small>made by Cassie LeClair</small>
     </div>

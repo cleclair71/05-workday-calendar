@@ -1,3 +1,5 @@
+//! not changing colours with the hours
+//! not saving to storage
 
 // Grabbing the element with the id of "currentDate" and storing it in the variable displayDay
 let displayDay = document.getElementById("currentDate");

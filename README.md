@@ -3,7 +3,7 @@
 
 <!-- PROJECT LOGO -->
 
-  <h3 align="center">Code Quiz!</h3>
+  <h3 align="center">Workday Schedule</h3>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -65,12 +65,12 @@ This application helps employees with busy schedules to keep track of important 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Start button starts timer and switches div
-- [x] When incorrectly answered, time is subtracted, prompts next question
-- [x] When answered correctly, points are added to the score, prompts next question
-- [x] The game is over when all questions are answered or when the timer reaches 0
-- [x] When game is over, you can save your initials and score
-- [x] Score and initials are saved in highscore.html
+- [x] Current day is displayed at the top of the calendar
+- [x] Presented with timeblocks for standard business hours
+- [x] Each timeblock is color coded to indicate whether it is in the past, present, or future
+- [x] Can enter an event into the timeblock
+- [x] Text for that event is saved in local storage
+- [x] The saved event remains when the page is refreshed
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -90,8 +90,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Cassie LeClair - cassieleclair71@gmail.com
 
-* Deployed Website: [https://cleclair71.github.io/coding-quiz/](https://cleclair71.github.io/coding-quiz/)
-* Repository Link: [https://github.com/cleclair71/coding-quiz](https://github.com/cleclair71/coding-quiz)
+* Deployed Website: [https://cleclair71.github.io/05-workday-calendar/](https://cleclair71.github.io/05-workday-calendar/)
+* Repository Link: [https://github.com/cleclair71/05-workday-calendar](https://github.com/cleclair71/05-workday-calendar)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

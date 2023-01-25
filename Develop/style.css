@@ -14,7 +14,22 @@ textarea {
   border-left: 1px solid white;
   padding: 10px;
 }
-
+.dropdown-toggle {
+  border-radius: 40px;
+  background-color: #e65493;
+  letter-spacing: 1px;
+  padding: 10px;
+  padding-left: 15px;
+}
+.dropdown-item1 {
+  background-color: #97cfa5;
+}
+.dropdown-item2 {
+  background-color: #d8e783;
+}
+.dropdown-item3 {
+  background-color: #62b6cf;
+}
 .jumbotron {
   background-color: #e692b9;
   color: #ffffff;
@@ -107,8 +122,14 @@ header .overlay {
   z-index: 1;
 }
 
-footer {
-  color: #e65493;
+#clearBtn {
+  border-radius: 40px;
+  background-color: #e65493;
+  letter-spacing: 1px;
+}
+#sticky-footer {
+  background-color: #e65493;
+  
 }
 /* Media Query for devices withi coarse pointers and no hover functionality */
 
