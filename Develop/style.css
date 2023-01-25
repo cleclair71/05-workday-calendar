@@ -3,9 +3,11 @@ body {
   font-size: 16px;
   background-color: #e692b9;
 }
+
 h1 {
   font-family: 'Koulen', sans-serif;
 }
+
 textarea {
   background: transparent;
   border: none;
@@ -14,6 +16,7 @@ textarea {
   border-left: 1px solid white;
   padding: 10px;
 }
+
 .dropdown-toggle {
   text-decoration: none;
   border-radius: 40px;
@@ -23,12 +26,15 @@ textarea {
   font-weight: normal;
   text-transform: uppercase;
 }
+
 .dropdown-item1 {
   background-color: #97cfa5;
 }
+
 .dropdown-item2 {
   background-color: #d8e783;
 }
+
 .dropdown-item3 {
   background-color: #62b6cf;
 }
@@ -36,10 +42,12 @@ textarea {
 .display-3 {
   margin-top: 50px;
 }
+
 .jumbotron {
   background-color: #e692b9;
   color: #ffffff;
 }
+
 .description {
   white-space: pre-wrap;
 }
@@ -140,14 +148,15 @@ header .overlay {
 
 .btn:hover {
   -webkit-box-shadow: 0px 0px 100px 0px rgb(47, 207, 255);
--moz-box-shadow: 0px 0px 100px 0px rgb(47, 207, 255);
-box-shadow: 0px 0px 100px 0px rgb(47, 207, 255);
-transition: .8s ease;
+  -moz-box-shadow: 0px 0px 100px 0px rgb(47, 207, 255);
+  box-shadow: 0px 0px 100px 0px rgb(47, 207, 255);
+  transition: .8s ease;
 }
 
 footer {
   background-color: #e65493;
 }
+
 /* Media Query for devices withi coarse pointers and no hover functionality */
 
 /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
