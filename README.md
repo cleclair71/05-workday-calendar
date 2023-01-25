@@ -1,22 +1,119 @@
-# 05 Third-Party APIs: Work Day Scheduler
 
-## Your Task
+<a name="readme-top"></a>
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+<!-- PROJECT LOGO -->
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+  <h3 align="center">Code Quiz!</h3>
 
-## User Story
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
 
-## Acceptance Criteria
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-```md
+![startscreen](https://user-images.githubusercontent.com/76407605/213609579-9e7b382c-d750-40c7-9770-674092d07da1.JPG)
+
+As a full-stack web developer, I have developed a timed coding quiz application that features multiple-choice questions. This application runs in the browser, and is powered by dynamic HTML, CSS and JavaScript code. The user interface is clean, polished and responsive. This application was designed to help users become familiar with coding assessments and to apply the skills learned in the module.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This application helps employees with busy schedules to keep track of important events, allowing them to effectively manage their time. According to the project's acceptance criteria and provided mock-up, the app includes the following features:
+-When the user opens the planner, the current day is displayed at the top of the calendar and uses a date library to work with date and time
+-When the user scrolls down, they see timeblocks for standard business hours
+-Each timeblock is color-coded to indicate whether it is in the past, present, or future. Past events are gray, present events are red, and future events are green
+-Users can click into a timeblock to enter an event and click the save button to save the event in local storage
+-When the page is refreshed, saved events persist
+-Users can edit timeblock entry fields and use the clear button to clear all contents and local storage.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+![startscreen](https://user-images.githubusercontent.com/76407605/213609579-9e7b382c-d750-40c7-9770-674092d07da1.JPG)
+![questions](https://user-images.githubusercontent.com/76407605/213609587-f0eb553b-c5d0-4de1-8eff-6f0eb5227166.JPG)
+![alldone](https://user-images.githubusercontent.com/76407605/213609597-068cae89-d3c9-4da5-9284-3c2e0a0059e6.JPG)
+![highscores](https://user-images.githubusercontent.com/76407605/213609603-4ee92526-2139-47e9-b88e-ba97a1c61045.JPG)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Start button starts timer and switches div
+- [x] When incorrectly answered, time is subtracted, prompts next question
+- [x] When answered correctly, points are added to the score, prompts next question
+- [x] The game is over when all questions are answered or when the timer reaches 0
+- [x] When game is over, you can save your initials and score
+- [x] Score and initials are saved in highscore.html
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Cassie LeClair - cassieleclair71@gmail.com
+
+* Deployed Website: [https://cleclair71.github.io/coding-quiz/](https://cleclair71.github.io/coding-quiz/)
+* Repository Link: [https://github.com/cleclair71/coding-quiz](https://github.com/cleclair71/coding-quiz)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* [README Template](https://github.com/othneildrew/Best-README-Template)
+* [Spacing](https://getbootstrap.com/docs/4.0/utilities/spacing/)
+* [Format](https://day.js.org/docs/en/display/format)
+* [Bootstrap layout](https://getbootstrap.com/docs/5.0/layout/utilities/)
+* [jQuery API](https://api.jquery.com/)
+* [Document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+* [Logical AND (&&)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
+* [return](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return)
+* [15 Gorgeous CSS Text Animation Effects](https://alvarotrigo.com/blog/css-text-animations/)
+* [FLEXBOX STICKY FOOTER](https://startbootstrap.com/snippets/sticky-footer-flexbox)
+* [Bootstrap Video Background](https://jsfiddle.net/StartBootstrap/enajc82d/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -31,69 +128,3 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
-
-The following animation demonstrates the application functionality:
-
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
